@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+.big-box{
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 25px;
+    padding: 20px;
+    color: white;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-city{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffff;
+    width: calc(100% - 100px);
+}
+
+.search-button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+#button-icon{
+    scale: 1.2;
+}
+
+.average-box{
+    margin-top: 30px;
+}
+
+.city{
+    color: #ffff;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.temp{
+    font-size: 1.2em;
+    color: #ffff;
+    margin-top: 20px;
+}
+
+.small-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 20px;
+}
+.forecast-text{
+    color: #ffff;
+    margin-left: 2px;
+    /*text-transform: capitalize;   DEIXA A PRIMEIRA MAIUSCULA*/
+}
+
+.humidity{
+    margin-top: 20px;
+}
